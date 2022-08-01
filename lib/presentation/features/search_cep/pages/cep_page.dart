@@ -46,10 +46,10 @@ class CepPage extends StatelessWidget {
               child: BlocBuilder<CepCubit, CepState>(
                 builder: (context, state) {
                   if (state is CepLoading) {
-                    return const CircularProgressIndicator();
+                    return const Center(child: CircularProgressIndicator());
                   }
                   if (state is CepLoaded) {
-                    return Expanded(
+                    return Center(
                       child: Column(
                         children: [
                           Text(state.cepResponse.bairro),
