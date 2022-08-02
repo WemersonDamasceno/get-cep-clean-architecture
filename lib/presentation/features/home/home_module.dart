@@ -1,7 +1,7 @@
 import 'package:flutter_modular/flutter_modular.dart';
-import 'package:flutter_modular_example/core/routes/app_routes.dart';
-import 'package:flutter_modular_example/presentation/features/home/pages/home_page.dart';
-import 'package:flutter_modular_example/presentation/features/search_cep/cep_module.dart';
+import 'package:get_cep_clean_arch/core/routes/app_routes.dart';
+import 'package:get_cep_clean_arch/presentation/features/home/pages/home_page.dart';
+import 'package:get_cep_clean_arch/presentation/features/search_cep/cep_module.dart';
 
 class HomeModule extends Module {
   @override

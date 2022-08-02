@@ -1,8 +1,8 @@
 import 'package:dartz/dartz.dart';
-import 'package:flutter_modular_example/core/errors/failures.dart';
-import 'package:flutter_modular_example/core/usecases/usecase.dart';
-import 'package:flutter_modular_example/domain/entities/cep_entity.dart';
-import 'package:flutter_modular_example/domain/repositories/cep_repository.dart';
+import 'package:get_cep_clean_arch/core/errors/failures.dart';
+import 'package:get_cep_clean_arch/core/usecases/usecase.dart';
+import 'package:get_cep_clean_arch/domain/entities/cep_entity.dart';
+import 'package:get_cep_clean_arch/domain/repositories/cep_repository.dart';
 
 class GetCepUseCase implements Usecase<CepEntity, String> {
   GetCepUseCase(this.repository);

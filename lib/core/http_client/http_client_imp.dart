@@ -1,4 +1,4 @@
-import 'package:flutter_modular_example/core/http_client/http_client.dart';
+import 'package:get_cep_clean_arch/core/http_client/http_client.dart';
 import 'package:http/http.dart' as http;
 
 class HttpClientImp implements HttpClient {

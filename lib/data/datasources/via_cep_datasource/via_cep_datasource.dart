@@ -1,9 +1,9 @@
 import 'dart:convert';
 
-import 'package:flutter_modular_example/core/errors/exceptions.dart';
-import 'package:flutter_modular_example/core/http_client/http_client.dart';
-import 'package:flutter_modular_example/data/datasources/cep_datasource.dart';
-import 'package:flutter_modular_example/data/models/cep_model.dart';
+import 'package:get_cep_clean_arch/core/errors/exceptions.dart';
+import 'package:get_cep_clean_arch/core/http_client/http_client.dart';
+import 'package:get_cep_clean_arch/data/datasources/cep_datasource.dart';
+import 'package:get_cep_clean_arch/data/models/cep_model.dart';
 
 class ViaCepDatasource implements CepDatasource {
   ViaCepDatasource(this._httpClient);
