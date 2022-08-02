@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.flutter_modular_example">
+    package="com.example.get_cep_clean_arch">
    <application
-        android:label="flutter_modular_example"
+        android:label="get_cep_clean_arch"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

@@ -1,4 +1,4 @@
-package com.example.flutter_modular_example
+package com.example.get_cep_clean_arch
 
 import io.flutter.embedding.android.FlutterActivity
 

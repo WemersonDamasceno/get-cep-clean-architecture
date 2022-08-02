@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:flutter_modular_example/domain/entities/cep_entity.dart';
+import 'package:get_cep_clean_arch/domain/entities/cep_entity.dart';
 
 class CepState extends Equatable {
   const CepState();

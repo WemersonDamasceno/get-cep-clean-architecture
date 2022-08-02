@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_modular/flutter_modular.dart';
-import 'package:flutter_modular_example/presentation/features/search_cep/cubit/cep_cubit.dart';
-import 'package:flutter_modular_example/presentation/features/search_cep/cubit/cep_state.dart';
+import 'package:get_cep_clean_arch/presentation/features/search_cep/cubit/cep_cubit.dart';
+import 'package:get_cep_clean_arch/presentation/features/search_cep/cubit/cep_state.dart';
 
 class CepPage extends StatelessWidget {
   const CepPage({Key? key}) : super(key: key);
