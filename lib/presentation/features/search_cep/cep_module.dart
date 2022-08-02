@@ -1,6 +1,8 @@
 import 'package:flutter_modular/flutter_modular.dart';
 import 'package:get_cep_clean_arch/core/http_client/http_client.dart';
 import 'package:get_cep_clean_arch/core/http_client/http_client_imp.dart';
+import 'package:get_cep_clean_arch/data/datasources/api_constants/api_constants.dart';
+import 'package:get_cep_clean_arch/data/datasources/api_constants/via_cep_constants_imp.dart';
 import 'package:get_cep_clean_arch/data/datasources/cep_datasource.dart';
 import 'package:get_cep_clean_arch/data/datasources/via_cep_datasource/via_cep_datasource.dart';
 import 'package:get_cep_clean_arch/data/repositories/cep_repository.dart';
@@ -19,9 +21,13 @@ class CepModule extends Module {
         // Binds for the repository
         Bind.lazySingleton((i) => CepRepositoryImp(i.get<CepDatasource>())),
         // Binds for the datasource
-        Bind.lazySingleton((i) => ViaCepDatasource(i.get<HttpClient>())),
+        Bind.lazySingleton(
+          (i) => ViaCepDatasource(i.get<HttpClient>(), i.get<ApiConstants>()),
+        ),
         // Binds for the http client
         Bind.lazySingleton((i) => HttpClientImp()),
+        // Binds for the api constants
+        Bind.lazySingleton((i) => ViaCepConstantsImp()),
       ];
 
   @override
