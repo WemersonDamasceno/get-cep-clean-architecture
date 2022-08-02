@@ -1,5 +1,6 @@
 import 'package:flutter_modular/flutter_modular.dart';
 import 'package:get_cep_clean_arch/core/routes/app_routes.dart';
+import 'package:get_cep_clean_arch/presentation/features/github/github_module.dart';
 import 'package:get_cep_clean_arch/presentation/features/home/pages/home_page.dart';
 import 'package:get_cep_clean_arch/presentation/features/search_cep/cep_module.dart';
 
@@ -19,6 +20,10 @@ class HomeModule extends Module {
     ModuleRoute(
       AppRoutes.cep,
       module: CepModule(),
+    ),
+    ModuleRoute(
+      AppRoutes.github,
+      module: GithubModule(),
     ),
   ];
 }

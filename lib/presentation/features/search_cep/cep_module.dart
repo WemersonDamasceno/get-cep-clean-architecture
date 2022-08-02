@@ -1,11 +1,11 @@
 import 'package:flutter_modular/flutter_modular.dart';
 import 'package:get_cep_clean_arch/core/http_client/http_client.dart';
 import 'package:get_cep_clean_arch/core/http_client/http_client_imp.dart';
-import 'package:get_cep_clean_arch/data/datasources/api_constants/api_constants.dart';
-import 'package:get_cep_clean_arch/data/datasources/api_constants/via_cep_constants_imp.dart';
-import 'package:get_cep_clean_arch/data/datasources/cep_datasource.dart';
-import 'package:get_cep_clean_arch/data/datasources/via_cep_datasource/via_cep_datasource.dart';
-import 'package:get_cep_clean_arch/data/repositories/cep_repository.dart';
+import 'package:get_cep_clean_arch/data/datasources/cep/api_constants/api_constants.dart';
+import 'package:get_cep_clean_arch/data/datasources/cep/api_constants/via_cep_constants_imp.dart';
+import 'package:get_cep_clean_arch/data/datasources/cep/cep_datasource.dart';
+import 'package:get_cep_clean_arch/data/datasources/cep/via_cep_datasource/via_cep_datasource.dart';
+import 'package:get_cep_clean_arch/data/repositories/cep/cep_repository_imp.dart';
 import 'package:get_cep_clean_arch/domain/repositories/cep_repository.dart';
 import 'package:get_cep_clean_arch/domain/usecases/get_cep_usecase.dart';
 import 'package:get_cep_clean_arch/presentation/features/search_cep/cubit/cep_cubit.dart';

@@ -23,6 +23,12 @@ class HomePage extends StatelessWidget {
                 Modular.to.pushNamed(AppRoutes.cep);
               },
             ),
+            ElevatedButton(
+              child: const Text('Go to Github'),
+              onPressed: () {
+                Modular.to.pushNamed(AppRoutes.github);
+              },
+            ),
           ],
         ),
       ),

@@ -1,7 +1,7 @@
 import 'package:dartz/dartz.dart';
 import 'package:get_cep_clean_arch/core/errors/exceptions.dart';
 import 'package:get_cep_clean_arch/core/errors/failures.dart';
-import 'package:get_cep_clean_arch/data/datasources/cep_datasource.dart';
+import 'package:get_cep_clean_arch/data/datasources/cep/cep_datasource.dart';
 import 'package:get_cep_clean_arch/domain/entities/cep_entity.dart';
 import 'package:get_cep_clean_arch/domain/repositories/cep_repository.dart';
 

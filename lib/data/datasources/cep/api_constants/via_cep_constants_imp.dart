@@ -1,4 +1,4 @@
-import 'package:get_cep_clean_arch/data/datasources/api_constants/api_constants.dart';
+import 'package:get_cep_clean_arch/data/datasources/cep/api_constants/api_constants.dart';
 
 class ViaCepConstantsImp implements ApiConstants {
   @override
